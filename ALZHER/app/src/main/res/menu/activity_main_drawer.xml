@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/homeicon"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/profileuser"
+            android:title="View Profile" />
+        <item
+            android:id="@+id/nav_person"
+            android:icon="@drawable/people"
+            android:title="View Familiar Person" />
+        <item
+            android:id="@+id/nav_dates"
+            android:icon="@drawable/calendar"
+            android:title="View Important Dates" />
+        <item
+            android:id="@+id/nav_notes"
+            android:icon="@drawable/writing"
+            android:title="View Important Notes" />
+        <item
+            android:id="@+id/nav_prediction"
+            android:icon="@drawable/predictive"
+            android:title="View Prediction" />
+        <item
+            android:id="@+id/nav_exercise"
+            android:icon="@drawable/creativemind"
+            android:title="View Suggested Exercise" />
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/logout"
+            android:title="Logout" />
+    </group>
+</menu>
